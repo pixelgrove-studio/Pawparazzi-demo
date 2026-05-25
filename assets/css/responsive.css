@@ -197,6 +197,10 @@
         padding: 60px 20px;
     }
 
+    .about-us .button {
+        font-size: 1.1rem;
+    }
+
     .who-we-are {
         padding: 60px 0 60px 20px;
     }
