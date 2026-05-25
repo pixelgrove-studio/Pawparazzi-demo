@@ -294,7 +294,7 @@ header nav, header .navigation-bar ul, .about-us, .reservation,
    PARALLAX FIXED-IMAGE UTILITY
 ========================================================================== */
 .fixed-image {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/assets/images/paw_prints.png") fixed center;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/paw_prints.png") fixed center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 20vh;
@@ -420,7 +420,7 @@ header nav, header .navigation-bar ul, .about-us, .reservation,
     position: absolute;
     width: 40px;
     height: 40px;
-    background: url('/assets/images/paw.png') center/contain no-repeat;
+    background: url('../images/paw.png') center/contain no-repeat;
     opacity: .08;
     top: 20px;
     left: 20px;

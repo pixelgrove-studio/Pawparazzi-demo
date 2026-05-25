@@ -10,7 +10,7 @@
    ========================================================================== */
 header {
     height: calc(100vh - 7px);
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url("/assets/images/bg.png") center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url("../images/bg.png") center/cover no-repeat fixed;
     background-color: #cccccc;
 }
 
@@ -206,5 +206,5 @@ header .paw-arrow-down {
     left: 50%;
     transform: translate(-50%, 0);
     z-index: 10;
-    background: url("/assets/images/paw.png") no-repeat center;
+    background: url("../images/paw.png") no-repeat center;
 }

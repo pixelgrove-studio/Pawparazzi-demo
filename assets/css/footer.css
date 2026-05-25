@@ -21,7 +21,7 @@
             rgb(0, 0, 0, 0.95),
             rgb(0, 0, 0, 0.7)
         ),
-        url("/assets/images/footer.jpg");
+        url("../images/footer.jpg");
 
     background-repeat: no-repeat;
     background-size: cover;
