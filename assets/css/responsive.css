@@ -138,7 +138,7 @@
     }
 
     .copyright li {
-        margin-bottom: 5px;
+        margin-bottom: 15px;
     }
 
     .copyright li:not(:last-of-type):after {
