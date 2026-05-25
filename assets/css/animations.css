@@ -37,16 +37,16 @@ header .text .paw-icon , footer .text .paw-icon {
    LOADER Animation
    ========================================================================== */
 
-@keyframes loader-item-1 {  1%, 21%, 100% { transform: scaleY(1); } 11% { transform: scaleY(1.4); } }
-@keyframes loader-item-2 {  7%, 27%, 100% { transform: scaleY(1); } 17% { transform: scaleY(1.4); } }
-@keyframes loader-item-3 {  13%, 33%, 100% { transform: scaleY(1); } 23% { transform: scaleY(1.4); } }
-@keyframes loader-item-4 {  19%, 29%, 100% { transform: scaleY(1); } 29% { transform: scaleY(1.4); } }
-@keyframes loader-item-5 {  25%, 45%, 100% { transform: scaleY(1); } 35% { transform: scaleY(1.4); } }
-@keyframes loader-item-6 {  31%, 51%, 100% { transform: scaleY(1); } 41% { transform: scaleY(1.4); } }
-@keyframes loader-item-7 {  37%, 57%, 100% { transform: scaleY(1); } 47% { transform: scaleY(1.4); } }
-@keyframes loader-item-8 {  43%, 63%, 100% { transform: scaleY(1); } 53% { transform: scaleY(1.4); } }
-@keyframes loader-item-9 {  49%, 69%, 100% { transform: scaleY(1); } 59% { transform: scaleY(1.4); } }
-@keyframes loader-item-10 { 55%, 75%, 100% { transform: scaleY(1); } 65% { transform: scaleY(1.4); } }
+   @keyframes loader-item-1  {  1%, 21%, 100% { transform: scaleY(1); } 11% { transform: scaleY(1.4); } }
+   @keyframes loader-item-2  {  7%, 27%, 100% { transform: scaleY(1); } 17% { transform: scaleY(1.4); } }
+   @keyframes loader-item-3  { 13%, 33%, 100% { transform: scaleY(1); } 23% { transform: scaleY(1.4); } }
+   @keyframes loader-item-4  { 19%, 39%, 100% { transform: scaleY(1); } 29% { transform: scaleY(1.4); } }
+   @keyframes loader-item-5  { 25%, 45%, 100% { transform: scaleY(1); } 35% { transform: scaleY(1.4); } }
+   @keyframes loader-item-6  { 31%, 51%, 100% { transform: scaleY(1); } 41% { transform: scaleY(1.4); } }
+   @keyframes loader-item-7  { 37%, 57%, 100% { transform: scaleY(1); } 47% { transform: scaleY(1.4); } }
+   @keyframes loader-item-8  { 43%, 63%, 100% { transform: scaleY(1); } 53% { transform: scaleY(1.4); } }
+   @keyframes loader-item-9  { 49%, 69%, 100% { transform: scaleY(1); } 59% { transform: scaleY(1.4); } }
+   @keyframes loader-item-10 { 55%, 75%, 100% { transform: scaleY(1); } 65% { transform: scaleY(1.4); } }
 
 
 /* ==========================================================================
