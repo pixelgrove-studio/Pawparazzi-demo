@@ -1,0 +1,66 @@
+/*!
+ * Pawparazzi — Premium Pet Services HTML Template
+ * Version: 1.0.0
+ * Author: PixelGrove
+ * License: PixelGrove Standard License — see LICENSE.txt
+ */
+
+/* ==========================================================================
+    DESIGN SYSTEM & ROOT VARIABLES
+   ========================================================================== */
+   :root {
+    --primary-color: #a96700;
+    --dark-color: #262526;
+    --text-color: #515151;
+    --white-color: #fffffc;
+
+    --transition-fast: 0.3s ease;
+    --transition-medium: 0.5s ease;
+
+    --font-heading: "Poppins", sans-serif;
+    --font-body: sans-serif;
+    --font-script: 'Herr Von Muellerhoff', cursive;
+
+    --section-padding: 60px;
+    --border-radius: 18px;
+}
+
+/* ==========================================================================
+    RESET & BASE STYLES
+   ========================================================================== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-body);
+    color: var(--text-color);
+    overflow-x: hidden;
+}
+
+body.hide-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+body.stop-scroll {
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}

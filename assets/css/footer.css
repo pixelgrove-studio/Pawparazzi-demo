@@ -1,0 +1,164 @@
+/*!
+ * Pawparazzi — Premium Pet Services HTML Template
+ * Version: 1.0.0
+ * Author: PixelGrove
+ * License: PixelGrove Standard License — see LICENSE.txt
+ */
+
+/* ==========================================================================
+   FOOTER BASE
+   ========================================================================== */
+
+   footer {
+    position: relative;
+    display: block;
+    overflow: hidden;
+
+    padding: 120px 0 80px;
+
+    background:
+        linear-gradient(
+            rgb(0, 0, 0, 0.95),
+            rgb(0, 0, 0, 0.7)
+        ),
+        url("/assets/images/footer.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* ==========================================================================
+   FOOTER CONTENT WRAPPER
+   ========================================================================== */
+
+footer .text {
+    max-width: 500px;
+    margin: auto;
+}
+
+footer .contact-container {
+    display: flex;
+
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 0;
+}
+
+footer .contact-container > div {
+    flex: 1;
+}
+
+/* ==========================================================================
+   FOOTER TYPOGRAPHY
+   ========================================================================== */
+
+footer .text h2 {
+    margin-bottom: 25px;
+
+    font-family: var(--font-heading);
+    font-size: 23px;
+    letter-spacing: 1.9px;
+}
+
+footer .text p {
+    line-height: 27px;
+}
+
+footer .contact-container h3 {
+    font-size: 19px;
+    letter-spacing: 1.9px;
+}
+
+/* ==========================================================================
+   FOOTER SOCIAL LINKS
+   ========================================================================== */
+
+footer .social-media .links a {
+    margin: 0 10px;
+    font-size: 25px;
+}
+
+/* ==========================================================================
+   FOOTER NEWSLETTER
+   ========================================================================== */
+
+footer .newsletter input {
+    width: 270px;
+    padding: 10px;
+
+    margin-left: -15px;
+
+    border: none;
+    background-color: #eee;
+}
+
+footer .newsletter i {
+    margin-left: -40px;
+
+    vertical-align: middle;
+    font-size: 21px;
+}
+
+/* ==========================================================================
+   COPYRIGHT BASE
+   ========================================================================== */
+
+.copyright {
+    padding: 15px 40px 30px;
+    background-color: #262526;
+}
+
+/* ==========================================================================
+   COPYRIGHT DECORATION
+   ========================================================================== */
+
+.copyright .svg-up {
+    top: 0;
+    left: 50%;
+
+    margin-top: -50px;
+    margin-left: -96px;
+}
+
+.copyright .arrow-up {
+    top: -45px;
+
+    width: 40px;
+    height: 30px;
+
+    color: var(--white-color);
+    line-height: 1.9;
+}
+
+/* ==========================================================================
+   COPYRIGHT LIST
+   ========================================================================== */
+
+.copyright ul {
+    justify-content: center;
+}
+
+.copyright li {
+    font-size: 14px;
+    color: var(--white-color);
+}
+
+.copyright li:not(:last-of-type)::after {
+    content: '•';
+    margin: 10px;
+}
+
+/* ==========================================================================
+   COPYRIGHT CTA
+   ========================================================================== */
+
+.copyright .CTA {
+    margin-top: 25px;
+}
+
+.copyright .CTA li a {
+    color: var(--white-color);
+}
+
+

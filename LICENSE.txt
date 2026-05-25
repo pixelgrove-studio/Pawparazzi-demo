@@ -1,0 +1,24 @@
+PAWPARAZZI WEBSITE TEMPLATE
+Standard Template License
+--------------------------
+
+Copyright (c) 2026 [Your Name or Studio Name]
+
+PERMITTED USE
+-------------
+- Use this template for unlimited personal projects
+- Use this template for unlimited client projects
+- Modify and adapt the code and design freely
+- Use in commercial projects (client websites, your own business)
+
+NOT PERMITTED
+-------------
+- Resell or redistribute this template as a standalone product
+- Upload to free or paid template marketplaces (ThemeForest, TemplateMonster, etc.)
+- Sub-license or transfer ownership of this template to a third party
+- Claim original authorship of the unmodified template
+
+NO WARRANTY
+-----------
+This template is provided "as is", without warranty of any kind, express or
+implied. The author is not liable for any damages arising from its use.

@@ -1,0 +1,228 @@
+/*!
+ * Pawparazzi — Premium Pet Services HTML Template
+ * Version: 1.0.0
+ * Author: PixelGrove
+ * License: PixelGrove Standard License — see LICENSE.txt
+ */
+
+/* ==================================================
+   RESPONSIVE STYLES
+================================================== */
+
+@media (max-width: 1200px) {
+
+    .who-we-are,
+    .about-us,
+    .reservation {
+        padding: 60px 40px;
+    }
+
+    .about-us .text,
+    .reservation .text {
+        padding: 0 32px 0 0;
+    }
+
+    .about-us .image-container,
+    .reservation .image-container {
+        align-items: center;
+    }
+
+    .who-we-are .text {
+        padding: 0 0 0 32px;
+    }
+}
+
+@media (max-width: 992px) {
+    body {
+        padding: 0;
+    }
+
+    .dots {
+        display: none;
+    }
+
+    header {
+        height: calc(100vh - 10px);
+    }
+
+    header nav .logo {
+        padding-left: 0;
+    }
+
+    .about-us {
+        display: block;
+        padding-top: 50px;
+    }
+
+    .about-us .text,
+    .reservation .text {
+        padding: 0 0 40px;
+    }
+
+    .about-us .image-container .image1,
+    .reservation .image-container .image1 {
+        margin-left: 0;
+    }
+
+    .who-we-are {
+        display: block;
+        padding: 60px 20px 60px 40px;
+    }
+
+    .who-we-are .text {
+        padding: 20px 20px 0 0;
+    }
+
+    .reservation {
+        display: block;
+        padding: 30px 20px 60px;
+    }
+
+    .contact {
+        display: block;
+        padding: 78px 20px;
+    }
+
+    .contact .form {
+        margin-left: 0;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    header nav {
+        display: block;
+        text-align: center;
+        left: 0;
+        top: 0;
+        width: 100%;
+        padding-top: 25px;
+    }
+
+    header nav .toggle {
+        display: block;
+    }
+
+    header .navigation-bar {
+        position: fixed;
+        top: 0;
+        left: -354px;
+        height: 100%;
+        background-color: #262526;
+        overflow: hidden;
+        z-index: 20;
+        padding: 40px;
+    }
+
+    header .navigation-bar ul {
+        display: block;
+        padding-top: 40px;
+    }
+
+    header .navigation-bar ul li {
+        text-align: left;
+        padding: 14px 0;
+    }
+
+    footer .contact-container {
+        display: block;
+    }
+
+    footer .social-media {
+        margin-bottom: 40px;
+    }
+
+    .copyright ul {
+        display: block;
+        margin-top: -20px;
+    }
+
+    .copyright li {
+        margin-bottom: 5px;
+    }
+
+    .copyright li:not(:last-of-type):after {
+        content: '';
+    }
+
+    .partners-logos img {
+        width: 90px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    h3,
+    h1 {
+        font-size: 20px;
+        letter-spacing: 0;
+        margin-top: 35px;
+    }
+
+    h2 {
+        font-size: 60px
+    }
+
+    .about-us p {
+        font-size: 1rem;
+    }
+
+    header {
+        padding: 0;
+    }
+
+    header nav .logo {
+        position:relative;
+        left:40%;
+        width:20%;
+        top:0;
+    }
+
+    header nav .toggle.active {
+        left: 36%;
+    }
+
+    header .navigation-bar.show {
+        padding: 20px;
+        width: 48%;
+    }
+
+    header .text .button button {
+        margin-top: 4%;
+    }
+
+    .about-us,
+    .reservation {
+        padding: 60px 20px;
+    }
+
+    .who-we-are {
+        padding: 60px 0 60px 20px;
+    }
+
+   
+
+    .cards-container {
+        flex-direction: column;
+        padding: 0;
+        margin-top:12px
+    }
+    .card {
+        max-width: 100%;
+        height: 380px;
+    }
+
+    .testimonial-text {
+        font-size: 0.9rem;
+    }
+
+    footer {
+        height: 90vh;
+    }
+
+}
+
+
+/*End Home Page Responsive*/
+

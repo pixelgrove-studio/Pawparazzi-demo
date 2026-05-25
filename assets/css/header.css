@@ -1,0 +1,210 @@
+/*!
+ * Pawparazzi — Premium Pet Services HTML Template
+ * Version: 1.0.0
+ * Author: PixelGrove
+ * License: PixelGrove Standard License — see LICENSE.txt
+ */
+
+/* ==========================================================================
+   HERO HEADER BLOCK
+   ========================================================================== */
+header {
+    height: calc(100vh - 7px);
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url("/assets/images/bg.png") center/cover no-repeat fixed;
+    background-color: #cccccc;
+}
+
+header nav {
+    position: fixed;
+    top: 0;
+    padding: 36px 36px 20px;
+    z-index: 20;
+}
+
+header nav .logo {
+    flex-basis: 56%;
+    padding-left: 50px;
+}
+
+header nav .logo img {
+    width: 60px;
+    height: auto;
+}
+
+header nav .toggle {
+    display: none;
+    top: 26px;
+    left: 20px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    z-index: 21;
+}
+
+header nav .toggle:focus {
+    outline: none;
+}
+
+header nav .toggle span {
+    display: block;
+    width: 30px;
+    height: 2px;
+    border-radius: 40px;
+}
+
+header nav .toggle span:not(:last-of-type) {
+    margin-bottom: 6px;
+}
+
+header nav.active .toggle span {
+    background-color: #000;
+}
+
+header nav .toggle.active {
+    left: 32%;
+}
+
+header nav .toggle.active .first {
+    top: 16px;
+    transform: rotate(-45deg);
+}
+
+header nav .toggle.active .last {
+    top: 0;
+    transform: rotate(45deg);
+}
+
+header nav .toggle .hide {
+    transition: 0s;
+    visibility: hidden;
+}
+
+header nav.active .navigation-bar a {
+    color: #000;
+}
+
+/* Header Navigation Bar */
+header .navigation-bar.show {
+    width: 40%;
+    left: 0;
+}
+
+header .navigation-bar.show a {
+    color: #ccc !important;
+}
+
+header .navigation-bar.show a:hover {
+    color: var(--white-color) !important;
+}
+
+header .navigation-bar ul li {
+    flex: 1;
+    padding: 0 40px;
+}
+
+header .navigation-bar ul li .nav-paw {
+    opacity: 0;
+}
+
+.navigation-bar li.active .nav-paw {
+    opacity: 1;
+}
+
+header .navigation-bar a {
+    transition: all .5s;
+    font-size: 1.2rem;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+header .navigation-bar .underline {
+    height: 2px;
+    width: 0;
+    left: 50%;
+    bottom: -4px;
+    transition: all .3s;
+    display: block;
+}
+
+/* Header Central Typography Assets */
+header .text {
+    top: 24%;
+}
+
+header .text h1 {
+    margin-bottom: 0;
+}
+
+header .text span {
+    font-family: "Source Code Pro", sans-serif;
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+
+header .text .arrow .left,
+header .text .arrow .right {
+    height: 3px;
+    width: 100px;
+}
+
+header .text .arrow .left {
+    left: -1%;
+}
+
+header .text .arrow .right {
+    right: -1%;
+}
+
+header .text .arrow .left:after,
+header .text .arrow .right:after {
+    content: '';
+    border: 10px solid transparent;
+    border-left-color: var(--white-color);
+    top: -8px;
+}
+
+header .text .arrow .right:after {
+    right: 0;
+    border-color: transparent var(--white-color) transparent transparent;
+}
+
+
+header .text .button button {
+    border: 2px solid var(--primary-color);
+    padding: 10px 82px;
+    background: transparent;
+    color: var(--primary-color);
+    letter-spacing: 2.2px;
+    font-weight: 500;
+    font-family: var(--font-heading);
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    transition: all .35s ease;
+}
+
+header .text .button button:hover {
+    color: var(--white-color);
+}
+
+header .text .button button:focus {
+    outline: none;
+}
+
+header .svg-down {
+    bottom: 0;
+    left: 50%;
+    z-index: 5;
+    margin-left: -96px;
+    margin-bottom: -12px;
+    color: var(--white-color);
+}
+
+header .paw-arrow-down {
+    width: 70px;
+    height: 50px;
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 10;
+    background: url("/assets/images/paw.png") no-repeat center;
+}

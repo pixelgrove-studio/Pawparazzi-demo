@@ -1,0 +1,176 @@
+/*!
+ * Pawparazzi — Premium Pet Services HTML Template
+ * Version: 1.0.0
+ * Author: PixelGrove
+ * License: PixelGrove Standard License — see LICENSE.txt
+ */
+
+/* ==========================================================================
+   FLOATING FORM COMPONENT
+   ========================================================================== */
+
+/* ==========================================================================
+   FORM WRAPPER
+   ========================================================================== */
+
+   .get-in-touch {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* ==========================================================================
+   FORM TITLE
+   ========================================================================== */
+
+.get-in-touch .title {
+    text-align: center;
+
+    font-size: 36px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/* ==========================================================================
+   FORM GRID
+   ========================================================================== */
+
+.get-in-touch .row {
+    margin: -20px 0;
+}
+
+.get-in-touch .row .col {
+    float: left;
+
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.get-in-touch .row .col.x-50 {
+    width: 50%;
+}
+
+.get-in-touch .row .col.x-100 {
+    width: 100%;
+}
+
+/* ==========================================================================
+   FLOATING INPUT STYLES
+   ========================================================================== */
+
+/* ==========================================================================
+   FORM FIELD
+   ========================================================================== */
+
+.contact-form .form-field {
+    position: relative;
+    margin: 32px 0 28px;
+}
+
+/* ==========================================================================
+   INPUT FIELD
+   ========================================================================== */
+
+.contact-form .input-text {
+    display: block;
+
+    width: 100%;
+    height: 36px;
+
+    border-width: 0 0 2px;
+    border-color: var(--white-color);
+
+    background: transparent;
+    color: var(--white-color);
+
+    font-family: Lusitana, serif;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.contact-form .input-text:focus {
+    outline: none;
+}
+
+/* ==========================================================================
+   FLOATING LABEL
+   ========================================================================== */
+
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label {
+    transform: translateY(-24px);
+}
+
+.contact-form .label {
+    position: absolute;
+    left: 20px;
+    bottom: 22px;
+
+    color: #888;
+
+    cursor: text;
+    transition: transform 0.2s ease-in-out;
+
+    font-family: var(--font-heading);
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+/* ==========================================================================
+   SUBMIT BUTTON
+   ========================================================================== */
+
+.contact-form .submit-btn {
+    display: inline-block;
+
+    width: 100%;
+    height: 50px;
+
+    border: 1px solid #fff;
+
+    background-color: transparent;
+    color: var(--white-color);
+
+    cursor: pointer;
+    transition: 0.4s;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.contact-form .submit-btn:hover {
+    background: var(--white-color);
+    color: #000;
+}
+
+/* ==========================================================================
+   FORM NOTE
+   ========================================================================== */
+
+.note {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+
+    width: 100%;
+
+    text-align: center;
+
+    font-family: Lusitana, serif;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.note .link {
+    color: #888;
+    text-decoration: none;
+}
+
+.note .link:hover {
+    text-decoration: underline;
+}

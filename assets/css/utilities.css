@@ -1,0 +1,208 @@
+/*!
+ * Pawparazzi — Premium Pet Services HTML Template
+ * Version: 1.0.0
+ * Author: PixelGrove
+ * License: PixelGrove Standard License — see LICENSE.txt
+ */
+
+/* ==========================================================================
+   TYPOGRAPHY & GENERAL LINKS
+   ========================================================================== */
+h1, h3 {
+font-family: var(--font-heading);
+font-size: 47px;
+font-weight: bold;
+letter-spacing: 2px;
+margin: 0 0 15px;
+}
+
+h2 {
+    font-family: var(--font-script);
+    font-size: 100px;
+    font-weight: normal;
+    margin: 0 0 -55px;
+    color: var(--primary-color);
+}
+
+p {
+    color: var(--text-color);
+    line-height: 27px;
+    font-size: 1.2em;
+}
+
+.a-CTA {
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 4px;
+    letter-spacing: 1.5px;
+    font-size: 18px;
+}
+
+/* ==========================================================================
+   COLOR UTILITIES
+   ========================================================================== */
+
+/* Primary color */
+.a-CTA,
+h2,
+header .navigation-bar a:hover,
+header nav.active .navigation-bar a:hover,
+.copyright .CTA li a:hover {
+    color: var(--primary-color);
+}
+
+/* White color */
+h1,
+h3,
+header .navigation-bar a,
+header .text span,
+footer .text h2,
+footer .text p {
+    color: var(--white-color);
+}
+
+/* ==========================================================================
+   BACKGROUND UTILITIES
+   ========================================================================== */
+
+/* Primary background */
+header nav .navigation-bar .underline,
+header .text .button button:hover {
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+
+/* White background */
+header nav.active,
+header nav .toggle span,
+header nav.active .toggle.active span,
+header .navigation-bar .underline,
+header .text .arrow .left,
+header .text .arrow .right,
+header .text .button button {
+    background-color: var(--white-color);
+}
+
+/* ==========================================================================
+   DISPLAY UTILITIES
+   ========================================================================== */
+
+/* Flex */
+header nav,
+header .navigation-bar ul,
+.about-us,
+.reservation,
+.about-us .image-container,
+.reservation .image-container,
+.who-we-are,
+.who-image-container,
+footer .contact-container,
+.copyright ul {
+    display: flex;
+}
+
+/* Inline block */
+header .text .arrow .left:after,
+header .text .arrow .right:after,
+header .text span,
+footer .newsletter i,
+.copyright .arrow-up {
+    display: inline-block;
+}
+
+/* ==========================================================================
+   POSITION UTILITIES
+   ========================================================================== */
+
+/* Relative */
+header,
+header nav .toggle span,
+header .navigation-bar a,
+header .text,
+header .text .arrow .left,
+header .text .arrow .right,
+.fixed-image .text,
+.copyright,
+.copyright .arrow-up {
+    position: relative;
+}
+
+/* Absolute */
+header nav .toggle,
+header .navigation-bar .underline,
+header .text .arrow .left:after,
+header .text .arrow .right:after,
+header .svg-down,
+header .paw-arrow-down,
+.copyright .svg-up {
+    position: absolute;
+}
+
+/* Centered absolute */
+.fixed-image .text {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* ==========================================================================
+   ALIGNMENT UTILITIES
+   ========================================================================== */
+
+header .navigation-bar ul li,
+header .text,
+.about-us .text,
+.reservation .text,
+.who-we-are .text,
+.fixed-image .text,
+footer,
+.copyright {
+    text-align: center;
+}
+
+/* ==========================================================================
+   SIZING UTILITIES
+   ========================================================================== */
+
+header nav,
+header .navigation-bar a:hover .underline,
+header .navigation-bar li.active .underline,
+.card {
+    width: 100%;
+}
+
+/* ==========================================================================
+   CURSOR UTILITIES
+   ========================================================================== */
+
+button,
+header nav .toggle,
+header .paw-arrow-down,
+footer .newsletter i,
+.copyright .arrow-up {
+    cursor: pointer;
+}
+
+/* ==========================================================================
+   DIRECTION UTILITIES
+   ========================================================================== */
+
+header nav,
+header .navigation-bar.show,
+header .navigation-bar a:hover .underline,
+header .navigation-bar li.active .underline,
+header .text .arrow .left:after,
+.copyright .arrow-up {
+    left: 0;
+}
+
+/* ==========================================================================
+   TRANSITION UTILITIES
+   ========================================================================== */
+
+header nav .toggle,
+header nav .toggle span,
+header .navigation-bar,
+header .navigation-bar ul,
+.copyright .CTA li a {
+    transition: .3s;
+}
